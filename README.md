@@ -26,3 +26,7 @@ oc delete all -l app=myapp
 oc get route
 
 oc describe limits resource-limits
+
+## Trigger redeplyment
+
+oc rollout latest dc/yoisho-atm
