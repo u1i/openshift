@@ -22,3 +22,5 @@ oc new-app u1ih/hello
 oc expose svc/hello
 
 oc delete all -l app=myapp
+
+oc get route
