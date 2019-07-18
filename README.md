@@ -30,3 +30,7 @@ oc describe limits resource-limits
 ## Trigger redeplyment
 
 oc rollout latest dc/yoisho-atm
+
+## Change deployment config
+
+oc edit dc/yoisho-atm
